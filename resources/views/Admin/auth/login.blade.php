@@ -4,18 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>4 Grupo</title>
+    <title>3 Grupo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
 		============================================ -->
     <!doctype html>
     <html class="no-js" lang="en">
-    
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>4 Grupo</title>
+        <title>3 Grupo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
@@ -81,7 +81,7 @@
       <div class="error-page-int">
         <div class="text-center m-b-md custom-login">
           <h3>Gestão de Cursos Online</h3>
-       
+
         </div>
         <div class="content-error">
           <div class="hpanel">
@@ -95,7 +95,7 @@
                                   <div class="text-danger">{{ session('error') }}</div>
                               @endif
                               <input name="email" type="email" class="form-control"  placeholder="Email">
-                                 
+
                               </div>
                               @error('email')
                               <div class="text-danger">{{ $message }}</div>
@@ -111,12 +111,12 @@
                                   <div class="text-danger">{{ $message }}</div>
                               @enderror
 
-                                 
+
                               </div>
                               <div class="checkbox login-checkbox">
                                   <label>
-                      
-                                
+
+
                               </div>
                               <div>
                               <button class="btn btn-custon-four btn-primary">Autenticar</button>
@@ -132,7 +132,7 @@
         <div class="text-center login-footer">
           <p>© <?php echo date("Y"); ?> Sistema de Cursos Online. Todos os direitos reservados.</p>
         </div>
-      </div>   
+      </div>
       </div>
     <!-- jquery
 		============================================ -->
