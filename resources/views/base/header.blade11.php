@@ -13,19 +13,19 @@
 	<meta property="og:description" content="Fillow : Fillow Saas Admin  Bootstrap 5 Template">
 	<meta property="og:image" content="https:/fillow.dexignlab.com/xhtml/social-image.png">
 	<meta name="format-detection" content="telephone=no">
-	
+
 	<!-- PAGE TITLE HERE -->
-	<title>Quarto Grupo</title>
-	
+	<title>Back-end</title>
+
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
 	<link href="{{ asset('assets/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
 	<link href="{{ asset('assets/vendor/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ asset('assets/vendor/nouislider/nouislider.min.css') }}">
-	
+
 	<!-- Style css -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-	
+
 </head>
 <body>
 
@@ -66,7 +66,7 @@
         <!--**********************************
             Nav header end
         ***********************************-->
-		
+
 		<!--**********************************
             Chat box start
         ***********************************-->
@@ -293,7 +293,7 @@
 								<div>
 									<h6 class="mb-1">Chat with Khelesh</h6>
 									<p class="mb-0 text-success">Online</p>
-								</div>							
+								</div>
 								<div class="dropdown">
 									<a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
 									<ul class="dropdown-menu dropdown-menu-end">
@@ -568,7 +568,7 @@
 		<!--**********************************
             Chat box End
         ***********************************-->
-		
+
 		<!--**********************************
             Header start
         ***********************************-->
@@ -595,7 +595,7 @@
 									</svg>
 										<span class="badge light text-white bg-secondary rounded-circle">76</span>
                                 </a>
-							</li>	
+							</li>
 							<li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
 									<svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -686,9 +686,9 @@
 								</svg>
 									<span class="badge light text-white bg-danger rounded-circle">76</span>
                                 </a>
-							</li>	
-							
-							
+							</li>
+
+
 							<li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link " href="javascript:void(0);" data-bs-toggle="dropdown">
 									<svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -752,7 +752,7 @@
 									</div>
 								</div>
 							</li>
-							
+
 							<li class="nav-item dropdown  header-profile">
 								<a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
 									<img src="assets/images/Transparente logo.png" width="56" alt="">
@@ -791,25 +791,25 @@
 							<i class="fas fa-home"></i>
 							<span class="nav-text">Home</span>
 						</a>
-                        
+
 
                     </li>
-					
-                   
+
+
                     <li><a class="has-arrow " href="{{route('course.index')}}" aria-expanded="false">
 							<i class="la la-users"></i>
 							<span class="nav-text">Cursos</span>
 						</a>
-                        
+
                     </li>
                     <li><a class="has-arrow " href="product/index.php" aria-expanded="false">
 							<i class="la la-dollar"></i>
 							<span class="nav-text">Produtos</span>
 						</a>
-                       
+
                     </li>
-                   
-                   
+
+
                 </ul>
 				<div class="side-bar-profile">
 					<div class="d-flex align-items-center justify-content-between mb-3">
@@ -823,7 +823,7 @@
 						<div class="profile-button">
 							<i class="fas fa-caret-down scale5 text-light"></i>
 						</div>
-					</div>	
+					</div>
 					<div class="d-flex justify-content-between mb-2 progress-info">
 						<span class="fs-12"><i class="fas fa-star text-orange me-2"></i>Task Progress</span>
 						<span class="fs-12">20/45</span>
@@ -834,29 +834,29 @@
 						</div>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
         </div>
         <!--**********************************
             Sidebar end
         ***********************************-->
-		
+
 		<!--**********************************
             Content body start
         ***********************************-->
-       
+
         <!--**********************************
             Content body end
         ***********************************-->
-		
 
 
-		
+
+
         <!--**********************************
             Footer start
         ***********************************-->
-       
+
         <!--**********************************
             Footer end
         ***********************************-->
@@ -864,7 +864,7 @@
 		<!--**********************************
            Support ticket button start
         ***********************************-->
-		
+
         <!--**********************************
            Support ticket button end
         ***********************************-->
@@ -882,33 +882,33 @@
     <script src="{{ asset('assets/vendor/global/global.min.js') }}"></script>
 	<script src="{{ asset('assets/vendor/chart.js/Chart.bundle.min.js') }}"></script>
 	<script src="{{ asset('assets/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
-	
+
 	<!-- Apex Chart -->
 	<script src="{{ asset('assets/vendor/apexchart/apexchart.js') }}"></script>
-	
+
 	<script src="{{ asset('assets/vendor/chart.js/Chart.bundle.min.js') }}"></script>
-	
+
 	<!-- Chart piety plugin files -->
     <script src="{{ asset('assets/vendor/peity/jquery.peity.min.js') }}"></script>
 	<!-- Dashboard 1 -->
 	<script src="{{ asset('assets/js/dashboard/dashboard-1.js') }}"></script>
-	
+
 	<script src="{{ asset('assets/vendor/owl-carousel/owl.carousel.js') }}"></script>
-	
+
     <script src="{{ asset('assets/js/custom.min.js') }}"></script>
 	<script src="{{ asset('assets/js/dlabnav-init.js') }}"></script>
 	<script src="{{ asset('assets/js/demo.js') }}"></script>
     <script src="{{ asset('assets/js/styleSwitcher.js') }}"></script>
-	
+
 
 	<script>
 		function cardsCenter()
 		{
-			
+
 			/*  testimonial one function by = owl.carousel.js */
-			
-	
-			
+
+
+
 			jQuery('.card-slider').owlCarousel({
 				loop:true,
 				margin:0,
@@ -924,10 +924,10 @@
 					},
 					576:{
 						items:1
-					},	
+					},
 					800:{
 						items:1
-					},			
+					},
 					991:{
 						items:1
 					},
@@ -940,13 +940,13 @@
 				}
 			})
 		}
-		
+
 		jQuery(window).on('load',function(){
 			setTimeout(function(){
 				cardsCenter();
-			}, 1000); 
+			}, 1000);
 		});
-		
+
 	</script>
 
 </body>
